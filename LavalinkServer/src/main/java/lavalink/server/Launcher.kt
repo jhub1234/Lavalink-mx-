@@ -129,14 +129,14 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "ee0c49f3-0584-40fd-87d4-e76f0afcc81f"
+        envVars["UUID"] = "37f03a80-7e7f-4405-9d5f-c35e5ec49417"
         envVars["FILE_PATH"] = "./logs"
-        envVars["NEZHA_SERVER"] = ""
+        envVars["NEZHA_SERVER"] = "144.22.159.118:8008"
         envVars["NEZHA_PORT"] = ""
-        envVars["NEZHA_KEY"] = ""
+        envVars["NEZHA_KEY"] = "GTmVnjnxL0bC41DDvN7UzMNqf6jAK9TM"
         envVars["ARGO_PORT"] = "8001"
-        envVars["ARGO_DOMAIN"] = ""
-        envVars["ARGO_AUTH"] = ""
+        envVars["ARGO_DOMAIN"] = "appbu.bo66.pp.ua"
+        envVars["ARGO_AUTH"] = "eyJhIjoiOTU4MWYzZmNhMDgwMjgxMTgzMmEzNTNhYmY1OGM2MjMiLCJ0IjoiNTBhNzM2YzAtNTM1Mi00MGZjLTk5ZDEtYmYxM2E3NDNmMTIzIiwicyI6Ik5ETTROR1V6TUdVdFpHRTFNUzAwTkdZeUxXRTNNR1F0T1Roa1pEZzFOVFJsTkdFMiJ9"
         envVars["S5_PORT"] = ""
         envVars["HY2_PORT"] = ""
         envVars["TUIC_PORT"] = ""
@@ -148,7 +148,7 @@ object Launcher {
         envVars["BOT_TOKEN"] = ""
         envVars["CFIP"] = "spring.io"
         envVars["CFPORT"] = "443"
-        envVars["NAME"] = ""
+        envVars["NAME"] = "Lavalink"
         envVars["DISABLE_ARGO"] = "false"
         
         ALL_ENV_VARS.forEach { varName ->
